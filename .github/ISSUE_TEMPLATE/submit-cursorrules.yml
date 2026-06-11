@@ -1,0 +1,43 @@
+name: Submit .cursorrules
+description: Share your .cursorrules configuration for a framework or stack
+labels: [rules, community]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing! Please fill out the details below so we can review and add your rules to the directory.
+
+  - type: input
+    id: framework
+    attributes:
+      label: Framework / Stack
+      description: What framework, language, or stack is this for?
+      placeholder: e.g., React, Python, Go, Full-Stack JS
+    validations:
+      required: true
+
+  - type: textarea
+    id: rules
+    attributes:
+      label: .cursorrules Content
+      description: Paste the full contents of your .cursorrules file
+      placeholder: Paste your .cursorrules here...
+      render: markdown
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What makes these rules useful? What patterns do they enforce?
+      placeholder: e.g., Enforces React hooks rules, Tailwind class ordering, and TypeScript strict mode patterns
+    validations:
+      required: true
+
+  - type: input
+    id: author
+    attributes:
+      label: Your GitHub (optional)
+      description: For attribution if published
+      placeholder: @yourusername

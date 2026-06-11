@@ -1,0 +1,62 @@
+name: Suggest an API
+description: Propose an API to be added to the MCP-Bridge directory
+labels: [api, enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting an API! Please provide the details below.
+
+  - type: input
+    id: name
+    attributes:
+      label: API Name
+      description: What's the name of the API?
+      placeholder: e.g., GitHub, Stripe, Notion
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What does this API do?
+      placeholder: e.g., GitHub API for managing repos, issues, and pull requests
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: OpenAPI Spec URL
+      description: Link to the OpenAPI/Swagger specification
+      placeholder: https://api.example.com/openapi.json
+    validations:
+      required: true
+
+  - type: input
+    id: docs
+    attributes:
+      label: Documentation URL (optional)
+      description: Link to the official API docs
+      placeholder: https://docs.example.com
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Best category for this API
+      options:
+        - Developer Tools
+        - AI & ML
+        - Data & Analytics
+        - Cloud Infrastructure
+        - Communication
+        - Finance & Payments
+        - Design & Creative
+        - Productivity
+        - Databases
+        - Security
+        - Other
+    validations:
+      required: true
