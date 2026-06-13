@@ -4,7 +4,7 @@
 
 MCP-Bridge is a free tool that lets you browse 500+ APIs, generate ready-to-use Model Context Protocol (MCP) server configurations, and download them for Claude Desktop, Cursor, or any MCP-compatible client.
 
-**[Launch the App →](https://mcp-bridge.pages.dev)**
+**[Launch the App →](https://mcpbridge.org)**
 
 ## Features
 
@@ -16,7 +16,7 @@ MCP-Bridge is a free tool that lets you browse 500+ APIs, generate ready-to-use 
 
 ## Quick Start
 
-1. **Visit** [mcp-bridge.pages.dev](https://mcp-bridge.pages.dev)
+1. **Visit** [mcpbridge.org](https://mcpbridge.org)
 2. **Browse** the API directory or use the converter
 3. **Generate** your MCP config
 4. **Copy** the JSON into your `claude_desktop_config.json` or Cursor MCP settings

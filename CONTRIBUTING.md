@@ -21,4 +21,4 @@ If we're missing an API that should be in the directory, open an issue with:
 Docs are in this repo under `docs/`. Submit a PR with your improvements.
 
 ### Share Feedback
-Contact us through the [website](https://mcp-bridge.pages.dev/contact) or open a discussion.
+Contact us through the [website](https://mcpbridge.org/contact) or open a discussion.
